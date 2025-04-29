@@ -1,0 +1,273 @@
+body {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  /* height: 100vh; */
+  overflow-x: hidden;
+  position: absolute;
+    /* background: none; */
+    mask: linear-gradient(180deg, #ffffff, 70%, transparent);
+    background-image: url("public/star.png");
+    background-position: top right;
+    /* background-size:cover; */
+    animation:star 50s linear infinite;
+  
+}
+
+
+@keyframes star{
+  0% {
+    background-position: 0px -100px, 0px -200px, 0px -300px;
+}
+100% {
+    background-position: 0px 1000px, 0px 1200px, 0px 1400px;
+}
+
+
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.flexbox{
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.navbar{
+   position: relative;
+   z-index: 2;
+   width:18vw;
+   background:#836666;
+    padding:10vh 5vw;
+    height: 105vh;
+    border-right: 1px solid white;
+    border-radius: 2%;
+    transition:  transform 0.2s ease-in;
+      transform: translateX(-19vw);
+}
+
+.navbar ul{
+   display: flex;
+   flex-direction: column;
+   row-gap: 9vh;
+    
+}
+
+
+
+.navbar ul li{
+  list-style: none;
+  cursor: pointer;
+}
+
+
+
+.navbar ul li a{
+  text-decoration: none;
+  color:#59dbb0;
+  font-size: 2vw;
+  transition: text-decoration ease-in 4s;
+ 
+}
+
+.navbar ul li:hover a{
+  text-decoration-color: blue;
+    text-decoration: underline;
+}
+
+.MYinfo{
+  position: relative;
+    right: 14vw;
+}
+#cursorcontainer {
+  width: 3vw;
+}
+
+#myportofolio {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* margin-top: 5vh; */
+  text-shadow: 6px 3px 6px white;
+}
+
+#cursorcontainer img{
+  mix-blend-mode: difference;
+  width: 3vw;
+  object-fit: contain;
+  position: absolute;
+  transition: all ease-in 0.3ms;
+  /* display: none; */
+}
+
+  .icon {
+    position: absolute;
+    top: 1vh;
+    /* left: 13vw;  for cross icon position*/
+    left: 2vw;
+    font-size: 3vw;
+    cursor: pointer;
+    z-index: 3;
+    transition: left linear 0.1ms;
+    
+  
+}
+
+#intropart {
+  margin: 13vh 3vw;
+}
+
+#intropart h1 {
+  color: #59dbb0;
+  font-size: 3vw;
+}
+
+#intropart h3 {
+  margin-right: 3vh;
+  padding-top: 2vh;
+}
+
+#myprofile {
+  width: 15vw;
+  height: 15vh;
+  margin: 1vh 42vw 28vh 42vw;
+  /* padding-bottom: 3vh; */
+}
+
+#myprofile img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  animation: developer 4s linear 0s infinite;
+  transition: all ease-in 0.4s;
+  cursor: pointer;
+}
+
+#myprofile img:hover {
+  scale: 1.2;
+}
+
+@keyframes developer {
+  0% {
+    transform: translateX(4px);
+  }
+  
+  25% {
+    transform: translateY(4px);
+  }
+  
+  50% {
+    transform: translateX(-4px);
+  }
+  
+  75% {
+    transform: translateY(-4px);
+  }
+  
+  100% {
+    transform: translateY(4px);
+  }
+}
+
+.typewriter {
+  border-right: 1px solid rgb(149, 32, 217);
+  white-space: nowrap;
+  animation: blink 0.8s infinite;
+  color: rgb(149, 32, 217);
+  font-size: 2vw;
+} 
+
+@keyframes blink {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+
+#education h1{
+ font-size: 2.3vw;
+ color: #59dbb0;
+margin: 3vh 0;
+}
+
+
+
+@media (max-width:730px){
+
+  body {
+    background-color: black;
+    color: white;
+    width: 100vw;
+   
+    overflow-x: auto;
+    
+    background-image: none;
+    mask: none;
+    animation: none;
+}
+  .icon {
+   
+   
+    font-size: 7vw;
+
+  }
+
+  .navbar{
+     width: 20vw;
+  }
+  .navbar ul li a {
+    font-size: 4vw;
+
+  }
+  .MYinfo {
+   
+    right: 19vw;
+}
+
+#myportofolio {
+  margin-top: 5vh;
+    font-size: 4vw;
+
+}
+
+#myprofile{
+  width: 27vw;
+    height: 2vh;
+    margin: 4vh 42vw 30vh 42vw;
+}
+
+#intropart {
+  margin: 13vh 0vw;
+}
+
+#intropart h1 {
+  font-size: 5vw;
+}
+
+
+.typewriter {
+  font-size: 5vw;
+}
+
+#education{
+  font-size: 4vw;
+}
+#education h1 {
+  font-size: 6vw;
+  
+  margin: 1vh 0;
+}
+
+
+
+
+
+}
+
+

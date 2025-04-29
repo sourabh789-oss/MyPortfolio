@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600&family=Yeon+Sung&display=swap'); 
+ 
+
+ .Myproject{
+    width: 45vw;
+    position: relative;
+    right: 7vw;
+    margin: 2vh auto;
+    /* left: 1vw; */
+    top: 2vh;
+ }
+
+
+ .Myproject h1{
+    color:brown;
+    font-size: 4vw;
+    font-family: "Baloo Bhai 2", sans-serif;
+
+
+ }
+
+ .Myproject .projects{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+    border: 2px dotted white;
+  padding-top: 3vh;
+  display: flex;
+   flex-direction: column;
+   row-gap: 3vh;
+
+ }
+
+  .projects span{    
+     transition: all ease-in 0.2s;
+    /* color: black; */
+     background: linear-gradient(  to left,white,red,white,red);
+      background-size:300% auto;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      cursor: pointer;
+    animation: colo 3s linear 0s infinite;
+
+  }
+    
+
+ 
+ .projects span:hover{   
+    color: gray;
+
+ }
+
+ 
+@keyframes colo{
+  
+0%{
+   background-position: 0% center;
+}
+
+50%{
+    background-position: center 100%;
+}
+
+100%{
+   background-position: 100% center;
+}
+
+}
+
+
+@media (max-width:730px){
+   .Myproject {
+      width: 72vw;
+    
+      right: 11vw;
+      
+  }
+
+  .Myproject h1 {
+  
+   font-size: 8vw;
+
+  }
+
+  .Myproject .projects{
+    row-gap: 4vh;
+  }
+
+  .projects span{
+   font-size: x-small;
+  }
+}

@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    block title
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css")        
+    link(rel="stylesheet", href="https://unpkg.com/aos@2.3.1/dist/aos.css")        
+    style 
+      include ../public/style.css
+      block style
+  body.bdy
+    i.icon.ri-menu-line 
+    section.flexbox 
+      div.navbar.navbargo
+       ul
+         
+         li #[a(href="/") Home]
+         li #[a(href="/project") MY Project]
+         li #[a(href="/Skills")  My Skills]       
+         li #[a(href="/Resume") My Resume]
+         li #[a(href="/contact") Contact Me]
+
+      block content
+    script(src="../public/aos.js")
+     
+    block scripts
+         

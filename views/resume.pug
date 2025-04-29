@@ -1,0 +1,17 @@
+extends  base.pug 
+
+block title 
+ title Resume
+
+block style 
+  style 
+   include ../public/resume.css 
+
+block content 
+    div.resumeinfo
+       img(src="../public/resume.jpeg", alt="My resume")
+       button 
+         a(href="../public/resume.pdf", target="_blank", download) Download 
+
+block scripts  
+ script(src="../public/nav.js")               

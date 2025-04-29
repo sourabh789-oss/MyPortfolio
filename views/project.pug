@@ -1,0 +1,36 @@
+extends base.pug 
+
+block title 
+  title My Project 
+
+block style 
+  style 
+    include ../public/project.css
+
+block content 
+    div.Myproject(data-aos="fade-right") 
+      h1 My Projects
+      div.projects 
+        span 1. Password manager------------------------------------------------------
+           a(href="https://github.com/sourabh789-oss/Password-Manager-Modified"  target="_blank") Github link    
+       
+        span 2. Microsoft Clone------------------------------------------------------
+           a(href="https://github.com/sourabh789-oss/Microsoft-Clone"  target="_blank") Github link    
+      
+        span 3. Tic Tac Toe------------------------------------------------------
+           a(href="https://github.com/sourabh789-oss/Tic-Tac-Toe-modified"  target="_blank") Github link    
+       
+        span 4. Happy New Year-----------------------------------------------------
+           a(href="https://github.com/sourabh789-oss/Happy-New-Year"  target="_blank") Github link    
+      
+        span 5. Instagram Clone------------------------------------------------------
+           a(href="https://github.com/sourabh789-oss/MINI-project" target="_blank") Github link    
+        span 6. Portofolio ------------------------------------------------------
+           a(href="https://github.com/sourabh789-oss/Portofolio2" target="_blank") Github link    
+
+
+
+
+
+block scripts 
+  script(src="../public/nav.js")       

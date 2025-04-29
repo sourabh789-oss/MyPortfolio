@@ -1,0 +1,22 @@
+extends base.pug
+
+block title 
+ title Contact Me 
+
+block style 
+ style 
+    include ../public/contact.css
+
+block content
+    div.contactinfo(data-aos="fade-right") 
+     h1  Contact Me
+     form(action="/contact", method="post")
+       input(type="text", name="yourname" placeholder="Enter Your Name" required autofocus)
+       input(type="email", name="youremail" placeholder="Enter Your Email" required autofocus)
+       input(type="Number", name="yournumber" placeholder="Mobile No" required autofocus)
+       input(type="text", name="youridea" placeholder="Give Your Idea we work together" autofocus)
+ 
+       button Submit     
+
+block scripts 
+ script(src="../public/nav.js")        

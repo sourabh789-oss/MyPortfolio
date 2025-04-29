@@ -1,0 +1,60 @@
+
+
+  .resumeinfo{
+ 
+    margin-top: 4vh;
+    width: 62vw;
+    height: 93vh;
+  }
+
+
+  .resumeinfo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+   .resumeinfo button{
+    position: relative;
+    padding: 1.2vw 3vh;
+    border: none;
+    border-radius: 12%;
+    background: red;
+    left: 33vw;
+    bottom: 9vh;
+    cursor: pointer;
+  transform: scale(1);
+  transition:  all ease-in 0.3ms;
+   }
+
+    .resumeinfo button a{
+         text-decoration: none;
+         color: white;
+         font-weight: bolder;
+       
+    }
+
+    .resumeinfo button:active{
+          transform: scale(0.9);
+          
+    }
+
+    @media (max-width:730px){
+
+
+      .resumeinfo {
+        margin-top: -3vh;
+      
+    }
+      .resumeinfo button {
+       
+        padding: 1.2vw 1vh;
+        
+        border-radius: 13%;
+        
+        left: 25vw;
+        bottom: 12vh;
+        
+    }
+    }

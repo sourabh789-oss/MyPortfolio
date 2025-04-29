@@ -1,0 +1,34 @@
+extends base.pug
+
+block title 
+   title My Portfolio
+
+block style 
+
+
+block content
+              
+    div.MYinfo(data-aos="zoom-out") 
+        div#myportofolio 
+          h1 MY PORTFOLIO 
+        div#cursorcontainer
+         img(src="../public/cursor.png", alt="")
+
+        section#myprofile 
+         div  
+           img(src="../public/sourabh5.jpg", alt="developer")  
+        section#intropart 
+          h1  MY Name is Sourabh Prajapati.
+          h3 I am  
+           span.typewriter 
+     
+     
+
+        section#education 
+          h1 About
+          div.about I am pursuing Computer Science and Information Technology From Chameli Devi Group of Institution .
+          div  Currently I am in 3rd Year. I live in indore 
+
+block scripts
+ script(src="../public/nav.js")
+ script(src="../public/script.js")

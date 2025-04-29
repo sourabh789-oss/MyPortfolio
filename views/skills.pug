@@ -1,0 +1,60 @@
+extends base.pug 
+
+block title 
+ title My skills 
+
+block style 
+  style 
+   include ../public/skill.css
+
+block content 
+    div.Myskills
+      h1 MY Skills 
+      div.skillcontainer
+      
+        button 
+          a.html
+           i.ri-html5-fill  HTML
+        
+      
+        button 
+          a.css
+            i.ri-css3-fill  CSS
+        
+        button 
+          a.html
+            i.ri-javascript-fill  Javascript
+        button 
+          a.node
+            i.ri-nodejs-line  Node js
+        button 
+          a.express
+            i.ri-nodejs-line  express js
+        button 
+          a.git
+            i.ri-git-merge-line  Git
+        button 
+          a.github
+            i.ri-github-fill  Github
+
+        button 
+          a.mongo
+            i.ri-database-2-line  Mongo db
+        button 
+          a.cpp
+            i.ri-code-line  c++ 
+        button 
+          a.c
+            i.ri-code-line  c 
+        button 
+          a.python
+            i.ri-code-line  python 
+        
+            
+
+
+
+block scripts 
+  script(src="../public/nav.js")       
+             
+     
