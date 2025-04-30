@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
 body {
   background-color: black;
   color: white;
@@ -7,7 +13,7 @@ body {
   position: absolute;
     /* background: none; */
     mask: linear-gradient(180deg, #ffffff, 70%, transparent);
-    background-image: url("public/star.png");
+    background-image: url("public/images/star.png");
     background-position: top right;
     /* background-size:cover; */
     animation:star 50s linear infinite;
@@ -25,12 +31,6 @@ body {
 
 
 
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
 }
 
 
