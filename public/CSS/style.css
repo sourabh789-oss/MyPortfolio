@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  scroll-behavior: smooth;
+  
 }
 body {
   background-color: black;
@@ -17,7 +19,7 @@ body {
     background-position: top right;
     /* background-size:cover; */
     animation:star 50s linear infinite;
-  
+    
 }
 
 
