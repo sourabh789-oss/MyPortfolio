@@ -22,7 +22,7 @@
     border-radius: 12%;
     background: red;
     left: 33vw;
-    bottom: 9vh;
+    bottom: 14vh;
     cursor: pointer;
   transform: scale(1);
   transition:  all ease-in 0.3ms;
