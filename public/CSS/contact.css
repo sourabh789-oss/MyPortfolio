@@ -76,22 +76,25 @@ button:hover{
 
 
 .contactinfo {
-  width: 72vw;
-    
-      right: 15vw;
+  width: 45rem;
+     
+      right: 3rem;
+      margin: 6rem 0;
+      margin-left: 2rem;
 }
 
   .contactinfo h1 {
-     font-size: 8vw;
+    font-size: 2rem;;
   }
   input {
-    padding: 2vh 1vw;
-    font-size: small;
+    padding: 0.7rem 1rem;
+    font-size: medium;
 
   }
 
   button{
     font-size: medium;
-    border-radius: 31px;
+    border-radius:3rem;
+    padding: 0.9rem 0.6rem;
   }
 }

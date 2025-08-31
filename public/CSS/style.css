@@ -221,7 +221,9 @@ margin: 3vh 0;
   }
 
   .navbar{
-     width: 20vw;
+    width: 4rem;
+        min-height: 100%;
+        
   }
   .navbar ul li a {
     font-size: 4vw;
@@ -233,23 +235,32 @@ margin: 3vh 0;
 }
 
 #myportofolio {
-  margin-top: 5vh;
-    font-size: 4vw;
+margin-top: 3rem;
+margin-left: 2rem;
+        font-size: 1rem;
 
 }
 
 #myprofile{
-  width: 27vw;
-    height: 2vh;
-    margin: 4vh 42vw 30vh 42vw;
+        width: 10rem;
+        height: 3rem;
+   margin: 2rem 2rem 15rem 8rem;
 }
-
+#myprofile img{
+  right: 3rem;
+}
 #intropart {
-  margin: 13vh 0vw;
+  margin: 3rem 0 3rem 0;
+
 }
 
 #intropart h1 {
   font-size: 5vw;
+}
+
+#intropart h3{
+  margin-right: 2rem;
+    padding-top: 1rem;
 }
 
 
@@ -258,7 +269,9 @@ margin: 3vh 0;
 }
 
 #education{
-  font-size: 4vw;
+margin: 0 0 6rem 0;
+        font-size: 0.7rem;
+        text-wrap: auto;
 }
 #education h1 {
   font-size: 6vw;
@@ -266,6 +279,9 @@ margin: 3vh 0;
   margin: 1vh 0;
 }
 
+#cursorcontainer img{
+  display: none;
+}
 
 
 
