@@ -74,7 +74,7 @@
 @media (max-width:730px){
    .Myproject {
       width: 72vw;
-    
+     margin-top: 3rem;
       right: 11vw;
       
   }
@@ -86,7 +86,11 @@
   }
 
   .Myproject .projects{
-    row-gap: 4vh;
+   padding:  2rem;
+   top: 2rem;
+    row-gap: 1rem;
+    height: auto;
+    padding-bottom: 2rem;
   }
 
   .projects span{

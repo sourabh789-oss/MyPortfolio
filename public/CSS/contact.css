@@ -86,6 +86,12 @@ button:hover{
   .contactinfo h1 {
     font-size: 2rem;;
   }
+
+  .contactinfo form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
   input {
     padding: 0.7rem 1rem;
     font-size: medium;

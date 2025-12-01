@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   position: absolute;
     /* background: none; */
-    mask: linear-gradient(180deg, #ffffff, 70%, transparent);
+    /* mask: linear-gradient(180deg, #ffffff, 70%, transparent); */
     background-image: url("public/images/star.png");
     background-position: top right;
     /* background-size:cover; */
@@ -95,7 +95,9 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* margin-top: 5vh; */
   text-shadow: 6px 3px 6px white;
+  margin-top: 2rem;
 }
+
 
 #cursorcontainer img{
   mix-blend-mode: difference;
@@ -198,7 +200,44 @@ body {
 margin: 3vh 0;
 }
 
+#education div{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+#connect{
+  margin: 3rem 0 0 0;
+}
+#connect h1{
+  font-family: cursive;
+ text-shadow: 6px 3px 6px white;
+  color: #59dbb0;
+ 
+}
+
+.profile{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+
+.btncon{
+   padding: 1rem 2rem;
+   border: none;
+   cursor: pointer;
+   color: white;
+   border-radius: 3rem;
+   background-color: blueviolet;
+}
+
+.btncon a{
+  
+   color: white;
+   text-decoration: none;
+   font: bold;
+
+}
 
 @media (max-width:730px){
 
@@ -222,7 +261,7 @@ margin: 3vh 0;
 
   .navbar{
     width: 4rem;
-        min-height: 100%;
+        min-height: 50rem;
         
   }
   .navbar ul li a {
@@ -248,6 +287,13 @@ margin-left: 2rem;
 }
 #myprofile img{
   right: 3rem;
+  transition: none;
+   
+}
+
+#myprofile img:hover{
+ scale: 1.0;
+   
 }
 #intropart {
   margin: 3rem 0 3rem 0;
@@ -255,7 +301,8 @@ margin-left: 2rem;
 }
 
 #intropart h1 {
-  font-size: 5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1rem;
 }
 
 #intropart h3{
@@ -272,6 +319,7 @@ margin-left: 2rem;
 margin: 0 0 6rem 0;
         font-size: 0.7rem;
         text-wrap: auto;
+       
 }
 #education h1 {
   font-size: 6vw;
@@ -279,9 +327,23 @@ margin: 0 0 6rem 0;
   margin: 1vh 0;
 }
 
+
 #cursorcontainer img{
   display: none;
 }
+
+.btncon{
+ padding: 0.5rem 1rem;
+}
+
+#connect{
+   margin: -2rem 0 0 0;
+}
+
+#connect h1{
+ font-size: 1rem;
+}
+
 
 
 

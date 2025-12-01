@@ -32,8 +32,8 @@
          text-decoration: none;
          color: white;
          font-weight: bolder;
-       
     }
+    
 
     .resumeinfo button:active{
           transform: scale(0.9);

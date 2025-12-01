@@ -13,7 +13,7 @@ body.addEventListener("mousemove",(dets)=>{
 
  let typewriter= document.getElementsByClassName("typewriter")[0];
 //  console.log(typewriter);
-let text=["Frontend Developer","Currently Learning DSA and Backend"];
+let text=["Full Stack Developer","Currently Working On AI Models Integration"];
 let speed =200;
 
 let delaybetweentext=1000; 
