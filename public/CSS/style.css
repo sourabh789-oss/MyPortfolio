@@ -11,6 +11,7 @@ body {
   color: white;
   width: 100vw;
   /* height: 100vh; */
+  min-height: calc(var(--vh,1vh));
   overflow-x: hidden;
   position: absolute;
     /* background: none; */
@@ -245,7 +246,7 @@ margin: 3vh 0;
     background-color: black;
     color: white;
     width: 100vw;
-   
+    min-height: calc(var(--vh,1vh));
     overflow-x: auto;
     
     background-image: none;
@@ -344,8 +345,9 @@ margin: 0 0 6rem 0;
  font-size: 1rem;
 }
 
-
-
+#cursorcontainer {
+  display: none;
+}
 
 
 }

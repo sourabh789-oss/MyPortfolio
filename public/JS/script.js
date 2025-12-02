@@ -50,5 +50,10 @@ let isDeleting=false;
  typing();
 
   
-
-  
+ (function setVh(){
+  const set =()=>{
+    document.documentElement.style.setProperty('--vh',`${window.innerHeight*0.01}px`);
+  }
+  set();
+  window.addEventListener('resize',set);
+ })();//this is IIFE means Inmediately Invoked function expression which is call function directly after defining it . 
